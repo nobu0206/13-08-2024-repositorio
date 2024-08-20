@@ -146,12 +146,12 @@
       $n2=89;
       if ($n2>=61) {
          if ($n2>=90) {
-            echo "Aprobado, -Excelente-";
+            echo "<br>Aprobado, -Excelente-";
          }else{
             if ($n2>=70) {
-               echo "Aprobado, -Sobresaliente-";
+               echo "<br>Aprobado, -Sobresaliente-";
             }else{
-               "Aprobado";
+               "<br>Aprobado";
             }
          }
       }
