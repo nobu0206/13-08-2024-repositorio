@@ -6,6 +6,75 @@
 </head>
 <body>
    <?php
+      //Reglas para la creación de variables
+      /*
+         1. Toda variable debe empezar con el símbolo $
+         2. Despues del símbolo $, deben usarse solo caracteres alfabéticos y el símbolo _
+         3. No se puede uilizar números después del símbolo de $
+         4. No se pueden utilizar símbolos especiales: *+-?¿%&%/....
+         5. Se pueden usar caracteres alfanuméricos y el símbolo _
+      */
+      /*
+      $nombre="Jose";
+      $_edad=45;
+      $nombre2="Carlos";
+      $edad_actual=52;
+      $nombre_actual_persona1="Raul";
+      */
+      //$1nombre="Carlos";
+      //$nombre(/&="Raul";
+
+      /*
+      SINTAXIS EN PHP
+      Cada línea de php, debe terminar obligatoriamente con el símbolo ;
+      */
+
+      /*
+      Comentarios en PHP
+      Los comentarios son elementos que nos permiten describir alguna caracterísica de nuestro progrma, o aclarar algún punto que sa confuso, o simplemente para documentar nuestro código
+      */
+
+      //Comentario en una línea
+      #Comentario en una línea
+
+      /*
+      Comentario en varias líneas
+      */
+
+      /*
+      Tipos de datos en PHP
+      En php, disponemos de diversos tipos de datos:
+      --- int
+      --- float
+      --- string
+      --- boolean
+      No es necesario especificar el tipo de dato de cada variable, simplemente se crear la variable y se le asigna el valor
+      */
+      /*
+       * Operadores de comparación
+       * >, <, >=, <=, ==, !=
+       */
+      /*
+       *Crear un programa que reciba un número y obtenga su último dígito
+       */
+      /*
+      $a=148;
+      $digito=$a%10;
+      echo $digito;
+      $nacimiento=2000;
+      $altura=1.68;
+      $nombre="Juancito";
+      $valor=true;
+      */
+      /**
+       * Operadores en PHP
+       * Operadores Aritméticos
+       * +,-,*,/,%
+       * Operadores de asignación
+       * =
+      */
+
+
       /*Resolver los siguientes ejercicios:
 
       1. Crear un programa que reciba 2 números y verificar si uno es múltiplo del otro.
@@ -44,6 +113,30 @@
 
             echo "el precion con IVA de $precio es $precioiva";
 
+      /**
+       * Estructuras de control
+       * CONDICIONALES
+       * REPETITIVAS
+       * 
+      */
+      //ESTRUCTURA IF
+      echo " ";
+      $nombre="Carlos";
+      if($nombre =="carlos"){
+         echo"<br>Son iguales";
+      }else{
+         echo"<br>no son iguales";
+      }
+
+      //Dado un numero verificar si es multiplo de 5
+      echo "";
+      $m=20;
+      
+         if ($m % 5 == 0) {
+            echo "<br>es múltiplo de";
+         } else {
+            echo "<br>no es múltiplo de ";
+         }
 
    ?>
 </body>
