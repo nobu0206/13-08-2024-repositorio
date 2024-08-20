@@ -134,9 +134,27 @@
       
          if ($m % 5 == 0) {
             echo "<br>es múltiplo";
-         } else {
+         }else{
             echo "<br>no es múltiplo";
          }
+
+      //Si tenemos la nota final de un estudiante, verificar si aprobo o no
+      //Nota minima de aprobacion 61
+      //Ademas si su nota es mayor o igual a 70, agregar "SOBRESALIENTE"
+      //Si es >=  90 agrgar "EXCELENTE"
+      
+      $n2=89;
+      if ($n2>=61) {
+         if ($n2>=90) {
+            echo "Aprobado, -Excelente-";
+         }else{
+            if ($n2>=70) {
+               echo "Aprobado, -Sobresaliente-";
+            }else{
+               "Aprobado";
+            }
+         }
+      }
 
    ?>
 </body>
