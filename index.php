@@ -133,9 +133,9 @@
       $m=20;
       
          if ($m % 5 == 0) {
-            echo "<br>es múltiplo de";
+            echo "<br>es múltiplo";
          } else {
-            echo "<br>no es múltiplo de ";
+            echo "<br>no es múltiplo";
          }
 
    ?>
