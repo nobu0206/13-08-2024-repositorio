@@ -169,6 +169,7 @@
          echo "<br>es par";
          $multi=$a1*$b1;
          echo "<br>la multiplicacion es $multi";
+         echo "<br>La suma es par: ".$suma." Por lo tanto Multiplicacion: ".$a1*$b1;
       }else{
          echo "<br>no es par";
          $div=$a1/$b1;
