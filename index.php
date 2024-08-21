@@ -156,6 +156,21 @@
          }
       }
 
+      //A partir de dos numeros, si su suma es par, entonces MULTIPLICARLOS, si es impar, DIVIDIRLOS
+      
+      //a=12
+      //b=8
+      //suma=a+b=20
+      //a*b=96
+      $a1=12;
+      $b1=8;
+      $suma=$a1+$b1;
+      if ($suma == 2) {
+         echo "es par";
+      }else{
+         echo "no es par";
+      }
+
    ?>
 </body>
 </html>
