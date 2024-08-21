@@ -171,6 +171,8 @@
          echo "<br>la multiplicacion es $multi";
       }else{
          echo "<br>no es par";
+         $div=$a1/$b1;
+         echo "<br>la division es $div";
       }
 
    ?>
