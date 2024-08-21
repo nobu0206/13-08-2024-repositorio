@@ -165,10 +165,10 @@
       $a1=12;
       $b1=8;
       $suma=$a1+$b1;
-      if ($suma == 2) {
-         echo "es par";
+      if ($suma % 2 == 0) {
+         echo "<br>es par";
       }else{
-         echo "no es par";
+         echo "<br>no es par";
       }
 
    ?>
