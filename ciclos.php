@@ -91,8 +91,8 @@ Salida: 1,2,3,4,5,6,7,8,9
       $par;
       $salid;
       while($nro>0){
-        $par=$nro%2;
-        $salida = $salida.$digito. ",";
+        $par=$nro%2
+        $salid = $salid.$digito. ",";
         $nro=(int)$nro/10;
       }
       echo $salid;
