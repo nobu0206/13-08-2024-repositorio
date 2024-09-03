@@ -128,7 +128,7 @@ Salida: 1,2,3,4,5,6,7,8,9
     </div>
     <?php
     $nro=10;
-    for($i=0;$i<$nro;$i++){
+    for($i=1;$i<$nro;$i++){
       echo $i.",";
     }
     
