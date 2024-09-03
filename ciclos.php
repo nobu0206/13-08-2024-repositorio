@@ -71,7 +71,7 @@ Salida: 1,2,3,4,5,6,7,8,9
     <?php
       $nro=6416431581313;
       $digito;
-      $salida;
+      $salida="";
       while($nro>0){
         $digito=$nro%10;
         $salida = $salida.$digito. ",";
@@ -89,10 +89,10 @@ Salida: 1,2,3,4,5,6,7,8,9
     <?php
       $nro=45687;
       $par;
-      $salidas;
+      $salidas="";
       while($nro>0){
         $digito=$nro%10;
-        $salidas = $salidas.$digito. ",";
+        $salidas = $digito.",".$salidas;
         $nro=(int)$nro/2;
       }
       echo $salidas;
