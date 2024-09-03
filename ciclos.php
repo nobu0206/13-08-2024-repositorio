@@ -80,7 +80,7 @@ Salida: 1,2,3,4,5,6,7,8,9
       echo $salida;
     ?>
 
-<div class="alert alert-success">
+    <div class="alert alert-success">
         Ejercicio 3: <br>
         Crear un programa que reciba un valor y muestre sus digitos pares: <br>
         Si n=45687 <br>
@@ -98,6 +98,40 @@ Salida: 1,2,3,4,5,6,7,8,9
         $nro=(int)$nro/10;
       }
       echo $salidas;
+    ?>
+    <div class="alert alert-success">
+      <h1>
+        Ciclo For
+      </h1>
+        Es una estructura que permite realizar una tarea de forma repetida, pero de una manera mas automatica, en el sentido<br>
+        Si n=45687 <br>
+    </div>
+    <div class="alert alert-success">
+      for($i=1;$i<20;$i++){<br>
+
+      }<br>
+
+    
+    </div>
+
+    <div class="alert alert-success">
+      Ejemplo 1: <br>
+      Crear un progrma que reciba un valor n y muestre el siguiente resutaldo: <br>
+      Si n=10 <br>
+      Salida: 1,2,3,4,5,6,7,8,9,10
+    </div>
+    <div class="alert alert-success">
+      $n=10; <br>
+      for($i=1;$i<20;$i++){<br>
+        echo $i;<br>
+      }<br>
+    </div>
+    <?php
+    $nro=10;
+    for($i=0;$i<$nro;$i++){
+      echo $i.",";
+    }
+    
     ?>
 
 
