@@ -89,13 +89,13 @@ Salida: 1,2,3,4,5,6,7,8,9
     <?php
       $nro=45687;
       $par;
-      $salid;
+      $salidas;
       while($nro>0){
-        $par=$nro%2
-        $salid = $salid.$digito. ",";
-        $nro=(int)$nro/10;
+        $digito=$nro%2;
+        $salidas = $salidas.$digito. ",";
+        $nro=(int)$nro/2;
       }
-      echo $salid;
+      echo $salidas;
     ?>
 
 
