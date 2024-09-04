@@ -125,15 +125,36 @@ Salida: 1,2,3,4,5,6,7,8,9
     }
     ?>
     <div class="alert alert-success">
-      Ejercicio 1: <br>
-      Crear un progrma que reciba un valor n y muestre el siguiente resutaldo: <br>
-      Si n=10 <br>
-      Salida: 1,2,3,4,5,6,7,8,9,10
+      <h1>
+        Ciclo Do Wjile
+      </h1>
+        Su comportamiento es similiar a la estructura Do-while con la diferencia que en esta, se asegura por lo menos una ejecicion, antes de realiazar la consulta<br>
+        Para utilizar le ciclo While usamos la siguiente sintaxis:  <br>
+        for(contador;condicion;incremento) <br>
+    </div>
+    <div class="alert alert-success">
+      $i=0;<br>
+      $n=2;<br>
+      do{<br>
+        echo $i;<br>
+        $i++;<br>
+      }while(i<=n)<br>
     </div>
     <?php
-    $nro=10;
-    for($i=1;$i<=$nro;$i++){
-      echo $i.",";
+    $n=3;
+    $i=9;
+    do{
+      echo "<br>Do While: ".$i.",";
+      $i++;
+    }while($i<=$nro);
+    ?>
+
+<?php
+    $n=3;
+    $i=9;
+    while($i<=$nro){
+      echo "<br>While: ".$i.",";
+      $i++;
     }
     ?>
 
