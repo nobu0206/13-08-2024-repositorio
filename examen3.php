@@ -20,30 +20,30 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
 
     <div class="alert alert-success">
+        Crear un programa que genere las siguientes salidas:
+        Entrada:9
+        Salida:9,9,9,9,9,9,9,9,9,9
+        Entrada:5
+        Salida: 5,5,5,5,5,5
+        Entrada:3
+        Salida: 3,3,3,3
+    </div>
+    <?php
+    $n = 9;
+    for ($i=0; $i<=$n; $i+1) {
+        echo $n.",";
+    }
+    ?>
+    
+    
+
+    <div class="alert alert-success">
         1. Crear un programa que reciba un número y muestre por separado sus dígitos pares y sus dígitos impares
         Ejemplo: 1651615
         Salida:
         Pares: 6,6
         Impares: 1,5,1,1,5
     </div>
-    <?php
-    $nro = 1651615;
-    $par = "";
-    $impar = "";
-    $digito;
-    while($nro > 0){
-        $digito = $nro % 10;
-        if($digito % 2 == 0){
-            $par = $digito.",".$par;
-        } else {
-            $impar = $digito.",".$impar;
-        }
-        $nro = (int)($nro / 10);
-    }
-    echo "Pares: $par";
-    echo "Impares: $impar";
-    ?>
 
-    
   </body>
 </html>
