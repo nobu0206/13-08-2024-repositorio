@@ -29,13 +29,11 @@
         Salida: 3,3,3,3
     </div>
     <?php
-    $n = 9;
-    for ($i=0; $i<=$n; $i+1) {
-        echo $n.",";
+    $n = 14;
+    for ($i=1; $i<$n; $i++) {
+        echo $i.",";
     }
     ?>
-    
-    
 
     <div class="alert alert-success">
         1. Crear un programa que reciba un número y muestre por separado sus dígitos pares y sus dígitos impares
